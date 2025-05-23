@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Management App</title>
+  <link rel="stylesheet" href="src/css/styles.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Management App</h1>
+    <form id="task-form" class="mb-4">
+      <div class="input-group">
+        <input type="text" id="task-title" class="form-control" placeholder="Enter task title">
+        <button type="submit" class="btn btn-primary">Add Task</button>
+      </div>
+    </form>
+    <ul id="task-list"></ul>
+  </div>
+  <script type="module" src="src/js/script.js"></script>
+</body>
+</html>
